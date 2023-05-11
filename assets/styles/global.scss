@@ -1,0 +1,66 @@
+// /* Import the rest of Bulma */
+@import "bulma/bulma";
+
+.button {
+  font-weight: 700;
+  height: auto;
+  &.is-wide {
+    min-width: 140px;
+  }
+  &.is-wider {
+    min-width: 170px;
+  }
+  &.is-widest {
+    min-width: 220px;
+  }
+  &.is-small {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+}
+
+
+/* Extra bulma classes */
+.has-text-weight-bolder {
+  font-weight: 800 !important;
+}
+.has-text-weight-black {
+  font-weight: 900 !important;
+}
+.has-limited-width {
+  width: 650px;
+  max-width: 100%;
+}
+.has-limited-width-small {
+  width: 560px;
+  max-width: 100%;
+}
+.has-limited-width-smaller {
+  width: 460px;
+  max-width: 100%;
+}
+.has-limited-width-smallest {
+  width: 320px;
+  max-width: 100%;
+}
+
+/* Nuxt page transition */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1em;
+  li {
+    &::marker {
+      color: $secondary;
+      font-size: 2em;
+    }
+  }
+}

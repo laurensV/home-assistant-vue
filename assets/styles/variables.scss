@@ -1,0 +1,22 @@
+/* Import Bulma Utilities */
+@import 'bulma/sass/utilities/initial-variables';
+@import 'bulma/sass/utilities/functions';
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Update Bulma's global variables
+$family-sans-serif: 'Outfit', sans-serif;
+$title-weight: $weight-bold;
+
+$primary: #0340E5;
+$secondary: #FF5C00;
+$secondary-invert: findColorInvert($secondary) !default;
+
+$custom-colors: (
+  "secondary":($secondary, $secondary-invert)
+);
+
+$navbar-height: 4.8rem;
+
+@import 'bulma/sass/utilities/mixins';
