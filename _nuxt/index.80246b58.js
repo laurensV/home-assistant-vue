@@ -1,0 +1,1 @@
+import{a as s,b as t,o as c,e}from"./entry.dadce4fc.js";const o={},n={class:"section"},a=e("div",{class:"container"},[e("h1",{class:"title"},"Home Assistant")],-1),_=[a];function i(r,d){return c(),t("section",n,_)}const f=s(o,[["render",i]]);export{f as default};
